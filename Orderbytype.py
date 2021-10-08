@@ -9,5 +9,7 @@ if type(stuff[1]) is int:   #type(stuff[0]) geeft het datatype van het eerste it
 if type(stuff[2]) is float:   #type(stuff[0]) geeft het datatype van het eerste item in de list 
     print("float found")
 
-if type(stuff[3]) is bool:   #type(stuff[0]) geeft het datatype van het eerste item in de list 
-    print("booleans found")
+    if type(stuff[3]) is bool:   #type(stuff[0]) geeft het datatype van het eerste item in de list 
+        print("booleans found")
+    else:
+        print("booleans not found...")
